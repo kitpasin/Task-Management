@@ -21,7 +21,7 @@ export default function Header(props) {
             <img
               onClick={() => setTheme(!theme)}
               src={
-                theme ? "/public/images/header/daymode.png" : "/public/images/header/nightmode.png"
+                theme ? "/images/header/daymode.png" : "/images/header/nightmode.png"
               }
               className="cursor-pointer bg-white hover:bg-white hover:bg-opacity-70 rounded-full p-1"
             />

@@ -152,12 +152,12 @@ export default function Home(props) {
 
             <div className="w-full flex justify-center sm:justify-end items-center gap-4 sm:w-1/2 md:w-1/4">
               <img
-                src="/public/images/home/editicon.png"
+                src="/images/home/editicon.png"
                 onClick={() => editTask(data.id)}
                 className="bg-yellow-500 hover:bg-yellow-600 w-10 h-10 rounded-full text-white p-2 cursor-pointer"
               />
               <img
-                src="/public/images/home/deleteicon.png"
+                src="/images/home/deleteicon.png"
                 onClick={() => deleteTask(data.id)}
                 className="bg-red-500 hover:bg-red-600 w-10 h-10 rounded-full text-white p-2 cursor-pointer"
               />
